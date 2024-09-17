@@ -24,7 +24,7 @@ yum install docker -y
 systemctl start docker
 systemctl status docker
 docker swarm init 
-docker node ls
+docker node ls - gives the list of attched nodes.
 
 
 2. INSTALLING JENKINS (MASTER)
@@ -106,7 +106,7 @@ pipeline {
         }
     }
 }
-
+choice parameter has used, so build for every option before using the deploy step.
 
 4. GIVE PERMISSIONS
 
