@@ -184,3 +184,5 @@ curl -L https://downloads.portainer.io/ce2-16/portainer-agent-stack.yml -o porta
 docker stack deploy -c portainer-agent-stack.yml portainer
  docker ps
 public-ip of swamr master:9000
+
+creating the service: docker service create --name my-registry -p 5000:5000  registry:2 (reg2 is an img).
